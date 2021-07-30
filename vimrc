@@ -44,9 +44,9 @@ set expandtab
 " 根据文件中其他地方的缩进空格个数来确定一个tab是多少个空格
 set smarttab
 " 编辑时tab占多少个空格
-set tabstop=4
+set tabstop=2
 " 显示时一个tab占多少空格
-set shiftwidth=4
+set shiftwidth=2
 " 继承前一行缩进量
 set autoindent
 " 智能缩进
@@ -70,8 +70,8 @@ set autochdir
 " 全屏
 " set fu
 " Leader 键
-let mapleader="\<Space>"
-map <Leader> <Plug>(easymotion-prefix)
+let mapleader=","
+" map <Leader> <Plug>(easymotion-prefix)
 
 " 设置快捷键将选中文本块复制至系统剪贴板
 vnoremap <Leader>y "+y
